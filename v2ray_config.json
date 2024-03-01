@@ -1,0 +1,17 @@
+{
+  "inbounds": [
+    {
+      "port": 1080, // Port on which the proxy server listens for incoming connections
+      "protocol": "socks", // Protocol used for inbound connections (e.g., socks, http)
+      "settings": {
+        "auth": "noauth" // Authentication method (e.g., noauth, password)
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom", // Protocol for outbound connections (e.g., freedom, socks)
+      "settings": {}
+    }
+  ]
+}

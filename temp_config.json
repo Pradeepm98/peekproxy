@@ -9,10 +9,6 @@
         {
             "listen": "0.0.0.0",
             "port": 34371,
-            "protocol": "dokodemo-door",
-            "settings": {
-                "address": "0.0.0.0"
-            },
             "tag": "api"
         },
         {
@@ -20,15 +16,6 @@
             "port": 10001,
             "protocol": "socks",
             "settings": {
-                "ip": "0.0.0.0",
-                "udp": true
-            },
-            "sniffing": {
-                "destOverride": [
-                    "http",
-                    "tls"
-                ],
-                "enabled": true
             },
             "tag": "proxy"
         }
